@@ -1,0 +1,111 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Pooja",
+      "email": "pooja@gmail.com",
+      "department": "Computer Science with AI",
+      "year": "III Year"
+    },
+    {
+      "id": 2,
+      "name": "Karishma",
+      "email": "karishma@gmail.com",
+      "department": "Computer Science with AI",
+      "year": "III Year"
+    },
+    {
+      "id": 3,
+      "name": "Ananya",
+      "email": "ananya@gmail.com",
+      "department": "Computer Science",
+      "year": "II Year"
+    },
+    {
+      "id": 4,
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "department": "Information Technology",
+      "year": "III Year"
+    }
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "title": "React Fundamentals",
+      "instructor": "John David",
+      "duration": "6 Weeks",
+      "level": "Beginner"
+    },
+    {
+      "id": 2,
+      "title": "Python for Data Science",
+      "instructor": "Priya Sharma",
+      "duration": "8 Weeks",
+      "level": "Intermediate"
+    },
+    {
+      "id": 3,
+      "title": "Machine Learning",
+      "instructor": "Arun Kumar",
+      "duration": "10 Weeks",
+      "level": "Advanced"
+    },
+    {
+      "id": 4,
+      "title": "Web Development",
+      "instructor": "Meena Raj",
+      "duration": "8 Weeks",
+      "level": "Beginner"
+    }
+  ],
+
+  "enrollments": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "courseId": 1,
+      "status": "Active",
+      "progress": 75
+    },
+    {
+      "id": 2,
+      "studentId": 1,
+      "courseId": 2,
+      "status": "Active",
+      "progress": 60
+    },
+    {
+      "id": 3,
+      "studentId": 2,
+      "courseId": 1,
+      "status": "Completed",
+      "progress": 100
+    },
+    {
+      "id": 4,
+      "studentId": 3,
+      "courseId": 4,
+      "status": "Active",
+      "progress": 45
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "name": "Pooja",
+      "email": "pooja@gmail.com",
+      "password": "1234",
+      "role": "student"
+    },
+    {
+      "id": 2,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ]
+}
